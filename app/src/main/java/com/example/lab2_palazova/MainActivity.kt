@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                 type = "message/rfc822"
                 putExtra(Intent.EXTRA_EMAIL, arrayOf("10252100@stud.op.edu.ua")) // кому
                 putExtra(Intent.EXTRA_SUBJECT, "ANDROID Палазова АІ221") // тема
-                putExtra(Intent.EXTRA_TEXT, "GitHub: https://github.com/elizvtt")
+                putExtra(Intent.EXTRA_TEXT, "GitHub: https://github.com/elizvtt/android_lab2.git")
 
                 // додавання зробленого фото
                 capturedBitmap?.let { bitmap ->
